@@ -8,11 +8,18 @@ void main()
     scanf("%d", &num);
     rem1 = num % 2;
     if (rem == 0)
+    {
         printf("%d is an even integer\n", num);
-    if (rem!=0)
+    }
+   else if (rem!=0)
+   {
         printf("%d is an odd integer\n", num);
+   }
         else
+        {
         printf("invalid");
+   }
+    getch();
         
         
 }
