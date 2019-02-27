@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 int main() 
 {
 	int mins,hour=0;
@@ -13,5 +14,5 @@ int main()
 	    mins=mins%60;
 	    printf("%d %d",hour,mins);
 	}
-	return 0;
+	getch();
 }
